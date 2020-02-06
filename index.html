@@ -17,13 +17,13 @@
                         
 
                         <div class="icon-container">
-                            <div class="Logo_WebType">
+                            <div class="Instagram_Icon">
                                 <a href="https://www.instagram.com/romonthehill/">
                                 <img src="assets/Instagram_Icon.svg">
                                 </a>
                             </div>
                             
-                            <div class="two-circles">
+                            <div class="Hands_Mark">
                                 <img src="assets/Hands_Mark.svg">
 
                             </div>
@@ -38,36 +38,6 @@
                         </div>
                         
                     </div>
-                <!-- </div>
-                    <div class="front-side">
-                        <div class="name">
-                            <h3>Roman Petrov</h3>
-                        </div>
-                            <div class="secondary">
-                            <h5>Art & Design</h5>
-                            
-
-                            <div class="Instagram_Icon">
-                                <div class="Instagram_Icon">
-                                    <a href="https://www.instagram.com/romonthehill/">
-                                    <img src="assets/Instagram_Icon.svg">
-                                    </a>
-                                </div>
-                                
-                            </div>
-                            <div class="Hands_Mark">
-                                <img src="assets/Hands_Mark.svg">
-
-                            </div>
-
-                                <div class="Email_Icon">
-                                    <a href="mailto:rgpetrov25@gmail.com">
-                                    <img src="assets/Email_Icon.svg">
-                                    </a>
-
-                                
-                            </div> -->
-
                             </div>
                             
                         </div>
