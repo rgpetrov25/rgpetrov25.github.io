@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Roman's Business Card</title>
+        <title>romonthehill</title>
         <link rel="stylesheet" href="style.css">
         <!-- <backgroundimg src="assets/Logo_WebType.svg"></backgroundimg> -->
     </head>
@@ -20,11 +20,11 @@
                             </div>
                             <div class="icon-container">
                                 <div class="circle">
-                                    <a href="rgpetrov25.github.io">
-                                    <img src="assets/Famicon_Placeholdericon.svg">
+                                    <a href="rgpetrov25.github.io/">
+                                    <img src="assets/Famicon_PlaceholderIcon.svg">
                                     </a>
                                 </div>
-                                
+                             
                                 <div class="square">
                                     <a href="mailto:rgpetrov25@gmail.com">
                                     <img src="assets/Email_Icon.svg">
