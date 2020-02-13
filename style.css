@@ -2,51 +2,43 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-image: url('Logo_WebType.svg');
     }
 
 
-body,
-.background-image {
-    background-color: ghostwhite;
-    background-image: url(assets/Logo_WebType.svg);
-    background-repeat:no-repeat;
-    
-    
+body {
+    background-color: gray;
 }
-.background-image
-{position: fixed;
-width: 100%;
-height: 100%;
-bottom: 10px;
-margin-left: 50px;}
 /* the main container */
 
-
-
-.back-side
-{
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  bottom: 010px;
-  
- 
+.front-side,
+.back-side {
+  width: 220px;
+  height: 390px;
+  position: sticky;
+  /* adjust this to space out the cards */
   margin: 20px auto;
   overflow: hidden;
-  box-shadow: 2px 5px 15px 0px; 
-  background-color:white;
- 
+  box-shadow: 2px 5px 15px 0px #17161694;
+  background-color:bl;
+  margin-top: 30px;
 }
 
+.front-side{
+  background-image: url('assets/BUSINESS-CARDmockup1-01.svg');
+
+}
+
+
+.back-side{
+  background-image: url('assets/Business-CardBackSide-01.svg');
+}
 
 .name{
   display: grid;
-  position: fixed;
-  margin-left:30px;
-  padding: 10px;
-  font-family:Prompt, sans-serif;
-  font-size: 64px;
-  
+  margin-left: 10px;
+  padding-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -54,9 +46,6 @@ margin-left: 50px;}
   display: grid;
   position: relative;
   margin-left:30px;
-  margin-right:30px;
-  font-size: 48px;
-  font-family: Prompt, sans-serif;
 
 }
 
@@ -65,22 +54,41 @@ margin-left: 50px;}
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: 
-  "a b c";
-  border: 2px solid transparent;
+  "a b c ";
+  border: 8px solid transparent;
+  background-image: url('Famicon_PlaceholderIcon.svg');
+  background-repeat: no-repeat;
+  margin-top: 310px;
 }
 
 .circle{
-  background-image: url("/assets/Logo_WebType.svg");
-  grid-area: b;
+  background-image: url('Famicon_PlaceholderIcon.svg');
+  grid-area: a;
 } */
+
+.square{
+  background-image: url('assets/Email_Icon.svg');
+}
 
 
 h3{
   margin-bottom: 0px;
-} */
+  margin-left: 28px;
+  font-size: 14px;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1px;
+}
 
- h5{
+h4{margin-bottom: 10px;
+  margin-left: 28px;
+  font-size: 8px;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
   margin-top: 0px;
-  margin-left: 30px;
+}
+
+h5{
+  margin-top: 0px;
   padding-top: 0px;
 }
